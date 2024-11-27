@@ -20,7 +20,9 @@
                             <li>Modes</li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl text-white">zanbahon</a>
+                    <div>
+                        <img src="image/zanbahon_no color_no_bg 1.png" alt="Zanbahon Logo" class="w-40">
+                    </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 space-x-10 font-bold text-white">
@@ -50,7 +52,7 @@
                     <a class="btn">Login</a>
                 </div>
             </div>
-            <div>
+            <div class="">
                 <div class="flex items-center space-x-3 md:hidden ml-5">
                     <a href=""><i class="fa-solid fa-arrow-left text-white"></i></a>
                     <p class="text-white font-semibold">Emergency Service</p>
@@ -58,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="fixed bottom-0 w-full bg-pantone p-3 flex justify-around text-white md:hidden bg-[#178783]">
+    <div class="fixed bottom-0 w-full bg-pantone p-3 flex justify-around text-white md:hidden bg-[#178783] z-50">
         <div class="flex flex-col items-center space-y-1">
             <i class="fa-solid fa-th-large text-lg"></i>
             <p class="text-xs">Services</p>

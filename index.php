@@ -7,7 +7,12 @@
     <?php include './CND/cnd.php'; ?>
 </head>
 <body>
-    <?php include './Navbar/navbar.php'; ?>
-    <?php include './MainSection/emergencyOption.php' ?>
+    <header class="">
+        <?php include './Navbar/navbar.php'; ?>
+    </header>
+    <main class="">
+        <?php include './MainSection/emergencyOption.php'; ?>
+    </main1>
+
 </body>
 </html>
