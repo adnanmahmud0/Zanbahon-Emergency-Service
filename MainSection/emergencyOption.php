@@ -118,7 +118,7 @@ $result = $conn->query($sql);
 </div>
 <?php
 // Fetch blood donation data
-$sql = "SELECT ID, CenterName, Location, ContactNumbers, Availability FROM BloodDonationCenters";
+$sql = "SELECT centerID, CenterName, Location, ContactNumbers, Availability FROM BloodDonationCenters";
 $result = $conn->query($sql);
 
 ?>
